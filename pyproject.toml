@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "streamcast_ott_content_churn_analytics"
+version = "1.0.0"
+description = "Global SVOD Streaming Content Intelligence Data Warehouse: Binge completion rates, 90-day churn hazard models, Video Startup Time (VST) QoE, and licensing content ROI."
+readme = "README.md"
+authors = [
+    { name = "Abdussatar", email = "satarabdus692@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis"
+]
